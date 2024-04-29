@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41264F02BDA059C00D6535C /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41264EF2BDA059C00D6535C /* CameraViewModel.swift */; };
+		C41264F42BDA2B0D00D6535C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41264F32BDA2B0D00D6535C /* CameraView.swift */; };
+		C41264F62BDA2CFF00D6535C /* CameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41264F52BDA2CFF00D6535C /* CameraDelegate.swift */; };
+		C47F553C2BD8C7D100B97624 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F553B2BD8C7D100B97624 /* CameraPreview.swift */; };
+		C47F55422BD8D46900B97624 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F55412BD8D46900B97624 /* CameraManager.swift */; };
+		C489EC6B2BD8AE54004B9B45 /* NanoColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EC6A2BD8AE54004B9B45 /* NanoColorApp.swift */; };
+		C489EC6D2BD8AE54004B9B45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EC6C2BD8AE54004B9B45 /* ContentView.swift */; };
+		C489EC6F2BD8AE55004B9B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C489EC6E2BD8AE55004B9B45 /* Assets.xcassets */; };
+		C489EC722BD8AE55004B9B45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C489EC712BD8AE55004B9B45 /* Preview Assets.xcassets */; };
+		C489EC792BD8AE7A004B9B45 /* ColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489EC782BD8AE7A004B9B45 /* ColorExtractor.swift */; };
+		C49F63E82BDD38EC0031C441 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F63E72BDD38EC0031C441 /* ColorPicker.swift */; };
+		C49F63EA2BDD51240031C441 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F63E92BDD51240031C441 /* ColorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C41264EF2BDA059C00D6535C /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		C41264F32BDA2B0D00D6535C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C41264F52BDA2CFF00D6535C /* CameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDelegate.swift; sourceTree = "<group>"; };
+		C43637792BDEAE1500855090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C47F553B2BD8C7D100B97624 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		C47F55412BD8D46900B97624 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		C489EC672BD8AE54004B9B45 /* NanoColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C489EC6A2BD8AE54004B9B45 /* NanoColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoColorApp.swift; sourceTree = "<group>"; };
+		C489EC6C2BD8AE54004B9B45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C489EC6E2BD8AE55004B9B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C489EC712BD8AE55004B9B45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C489EC782BD8AE7A004B9B45 /* ColorExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtractor.swift; sourceTree = "<group>"; };
+		C49F63E72BDD38EC0031C441 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		C49F63E92BDD51240031C441 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C489EC642BD8AE54004B9B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C489EC5E2BD8AE54004B9B45 = {
+			isa = PBXGroup;
+			children = (
+				C489EC692BD8AE54004B9B45 /* NanoColor */,
+				C489EC682BD8AE54004B9B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C489EC682BD8AE54004B9B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C489EC672BD8AE54004B9B45 /* NanoColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C489EC692BD8AE54004B9B45 /* NanoColor */ = {
+			isa = PBXGroup;
+			children = (
+				C43637792BDEAE1500855090 /* Info.plist */,
+				C489EC6A2BD8AE54004B9B45 /* NanoColorApp.swift */,
+				C489EC6C2BD8AE54004B9B45 /* ContentView.swift */,
+				C489EC782BD8AE7A004B9B45 /* ColorExtractor.swift */,
+				C47F553B2BD8C7D100B97624 /* CameraPreview.swift */,
+				C47F55412BD8D46900B97624 /* CameraManager.swift */,
+				C41264EF2BDA059C00D6535C /* CameraViewModel.swift */,
+				C41264F32BDA2B0D00D6535C /* CameraView.swift */,
+				C49F63E72BDD38EC0031C441 /* ColorPicker.swift */,
+				C49F63E92BDD51240031C441 /* ColorView.swift */,
+				C489EC6E2BD8AE55004B9B45 /* Assets.xcassets */,
+				C489EC702BD8AE55004B9B45 /* Preview Content */,
+				C41264F52BDA2CFF00D6535C /* CameraDelegate.swift */,
+			);
+			path = NanoColor;
+			sourceTree = "<group>";
+		};
+		C489EC702BD8AE55004B9B45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C489EC712BD8AE55004B9B45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C489EC662BD8AE54004B9B45 /* NanoColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C489EC752BD8AE55004B9B45 /* Build configuration list for PBXNativeTarget "NanoColor" */;
+			buildPhases = (
+				C489EC632BD8AE54004B9B45 /* Sources */,
+				C489EC642BD8AE54004B9B45 /* Frameworks */,
+				C489EC652BD8AE54004B9B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoColor;
+			productName = NanoColor;
+			productReference = C489EC672BD8AE54004B9B45 /* NanoColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C489EC5F2BD8AE54004B9B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C489EC662BD8AE54004B9B45 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C489EC622BD8AE54004B9B45 /* Build configuration list for PBXProject "NanoColor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C489EC5E2BD8AE54004B9B45;
+			productRefGroup = C489EC682BD8AE54004B9B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C489EC662BD8AE54004B9B45 /* NanoColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C489EC652BD8AE54004B9B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489EC722BD8AE55004B9B45 /* Preview Assets.xcassets in Resources */,
+				C489EC6F2BD8AE55004B9B45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C489EC632BD8AE54004B9B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489EC6D2BD8AE54004B9B45 /* ContentView.swift in Sources */,
+				C47F553C2BD8C7D100B97624 /* CameraPreview.swift in Sources */,
+				C489EC792BD8AE7A004B9B45 /* ColorExtractor.swift in Sources */,
+				C41264F62BDA2CFF00D6535C /* CameraDelegate.swift in Sources */,
+				C49F63EA2BDD51240031C441 /* ColorView.swift in Sources */,
+				C489EC6B2BD8AE54004B9B45 /* NanoColorApp.swift in Sources */,
+				C49F63E82BDD38EC0031C441 /* ColorPicker.swift in Sources */,
+				C47F55422BD8D46900B97624 /* CameraManager.swift in Sources */,
+				C41264F02BDA059C00D6535C /* CameraViewModel.swift in Sources */,
+				C41264F42BDA2B0D00D6535C /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C489EC732BD8AE55004B9B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C489EC742BD8AE55004B9B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C489EC762BD8AE55004B9B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoColor/Preview Content\"";
+				DEVELOPMENT_TEAM = 24692WGF7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NanoColor/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for capturing photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwan.NanoColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C489EC772BD8AE55004B9B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NanoColor/Preview Content\"";
+				DEVELOPMENT_TEAM = 24692WGF7R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NanoColor/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for capturing photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irwan.NanoColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C489EC622BD8AE54004B9B45 /* Build configuration list for PBXProject "NanoColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489EC732BD8AE55004B9B45 /* Debug */,
+				C489EC742BD8AE55004B9B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C489EC752BD8AE55004B9B45 /* Build configuration list for PBXNativeTarget "NanoColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C489EC762BD8AE55004B9B45 /* Debug */,
+				C489EC772BD8AE55004B9B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C489EC5F2BD8AE54004B9B45 /* Project object */;
+}
