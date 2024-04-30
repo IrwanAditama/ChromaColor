@@ -78,7 +78,6 @@
 				C41264F32BDA2B0D00D6535C /* CameraView.swift */,
 				C49F63E72BDD38EC0031C441 /* ColorPicker.swift */,
 				C49F63E92BDD51240031C441 /* ColorView.swift */,
-				C489EC6E2BD8AE55004B9B45 /* Assets.xcassets */,
 				C489EC702BD8AE55004B9B45 /* Preview Content */,
 				C41264F52BDA2CFF00D6535C /* CameraDelegate.swift */,
 			);
@@ -88,6 +87,7 @@
 		C489EC702BD8AE55004B9B45 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C489EC6E2BD8AE55004B9B45 /* Assets.xcassets */,
 				C489EC712BD8AE55004B9B45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";

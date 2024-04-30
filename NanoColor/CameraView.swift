@@ -10,6 +10,10 @@ import SwiftUI
 struct CameraView: View {
     @ObservedObject var viewModel = CameraViewModel()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.dismiss) var dismiss
+    
+    let onCapture: (UIImage) -> Void
+    
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -37,7 +41,7 @@ struct CameraView: View {
                             
                             CaptureButton{
                                 // Call the capture methodh
-                                //                                viewModel.captureImage()
+                                viewModel.captureImage()
                             }
                             
                             Spacer()
@@ -74,6 +78,12 @@ struct CameraView: View {
             viewModel.checkForDevicePermission()
         }
         .navigationBarBackButtonHidden()
+        .onChange(of: viewModel.capturedImage) { image in
+            if let image = image {
+                onCapture(image)
+                dismiss()
+            }
+        }
     }
     
     

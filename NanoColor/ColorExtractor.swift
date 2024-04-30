@@ -25,16 +25,16 @@ struct ColorExtractor: View {
                 
             ZStack{
                   
-                Image("Jalan")
+                Rectangle()
+                    .fill(Color.gray)
+                
+                Image("Gunung")
                     .resizable()
-                    .frame(width: 393, height: 573)
-                    .ignoresSafeArea()
-                   
-                Image("Road")
-                    .resizable()
-                    .frame(width: 393, height: 573)
+                    .frame(width: 361, height: 313)
                     .colorMultiply(selectedColor)
-   
+//                    .ignoresSafeArea()
+                    
+                
                 }
                 
                 
@@ -54,20 +54,22 @@ struct ColorExtractor: View {
                 .frame(width: 24, height: 24)
             
             VStack{
-//                NavigationLink {
-//                    CameraView()
-//                } label: {
-//                    Image(systemName: "camera.fill")
-//                }
-//                
-//                .font(.system(size: 32))
-//                .frame(width: 356, height: 55)
-//                .background(.purple)
-//                .cornerRadius(12.4)
-//                .foregroundColor(.white)
-//                .padding()
-//                
-//                
+                NavigationLink {
+                    CameraView(
+                        onCapture: { image in
+                            inputImage = image
+                        }
+                    )
+                } label: {
+                    Image(systemName: "camera.fill")
+                }
+                
+                .font(.system(size: 32))
+                .frame(width: 80, height: 55)
+                .background(.purple)
+                .cornerRadius(12.4)
+                .foregroundColor(.white)
+                .padding()
                 
                 
                 Button {

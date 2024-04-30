@@ -99,4 +99,8 @@ class CameraViewModel: ObservableObject {
     //        checkForDevicePermission()
             cameraManager.configureCaptureSession()
         }
+    
+    func captureImage() {
+        cameraManager.captureImage()
+    }
 }
